@@ -1,1 +1,3 @@
 greetings: Shopping Cart
+server:
+  port: 8070

@@ -3,20 +3,10 @@ server:
 ---
 spring:
   profiles: one
-  zipkin:
-    base-url: http://localhost:9411/
-  sleuth:
-    sampler:
-      probability: 1 #100% (default = 10%)
 server:
   port: 8900
 ---
 spring:
   profiles: two
-  zipkin:
-    base-url: http://localhost:9411/
-  sleuth:
-    sampler:
-      probability: 1 #100% (default = 10%)
 server:
   port: 8899

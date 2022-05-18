@@ -1,3 +1,13 @@
 greetings: Shopping Cart
 server:
   port: 8070
+---
+spring:
+  profiles: one
+server:
+  port: 8900
+---
+spring:
+  profiles: two
+server:
+  port: 8899

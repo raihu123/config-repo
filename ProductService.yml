@@ -1,2 +1,12 @@
 server:
   port: 8081
+---
+spring:
+  profiles: one
+server:
+  port: 8900
+---
+spring:
+  profiles: two
+server:
+  port: 8899

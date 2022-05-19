@@ -9,3 +9,4 @@ spring:
       group-id: group-1
       auto-offset-reset: earliest
       bootstrap-servers: localhost:9092
+message: Greetings from Customer Service

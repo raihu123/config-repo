@@ -16,3 +16,9 @@ spring.data.mongodb.port: 27017
 spring.data.mongodb.database: prodcutDB
 
 message: Hello from product service
+spring:
+  kafka:
+    consumer:
+      group-id: group-1
+      auto-offset-reset: earliest
+      bootstrap-servers: localhost:9092
